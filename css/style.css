@@ -1,0 +1,168 @@
+/* reset */
+* {
+ margin: 0;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+/* bordi tratteggiati */
+.bordo{
+  border: 2px dashed black;
+}
+.bordo2{
+  border: 2px dashed rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
+/* container centrato*/
+.container{
+  display: flex;
+}
+
+.containerfooter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+/* centratura con margin auto */
+.jumbo, .sez1, .sez2, .sez3, .sez4, .sez5, .sezf1, .sezf2 {
+  margin: auto;
+}
+
+/* header */
+header{
+  background-color: #add8e6;
+  height: 80px;
+  padding: 15px 0;
+}
+
+.jumbo{
+  background-color: #daa520;
+  width: 1200px;
+  align-items: center;
+}
+
+header div{
+  flex-grow: 1;
+  line-height: 45px;
+}
+
+ul{
+ justify-content: center;
+ list-style-type: none;
+}
+
+li{
+ padding:0 5px;
+}
+
+.link{
+  flex-grow: 3;
+}
+
+.login{
+  text-align: right;
+}
+
+/* main: colori e altezze background delle sezioni */
+main > section{
+  padding: 50px 0;
+  height: 600px;
+}
+
+.back1st{
+  background-color: #00008b;
+  height: 500px;
+}
+
+.back3rd, .back5th{
+  background-color: #d3d3d3;
+}
+
+.back5th{
+  height: 1000px;
+}
+
+/* main: colori, altezze e proprietà dei container e contenuti*/
+.sez1{
+  background-color: #ee82ee;
+  height: 400px;
+  width: 900px;
+}
+
+.sez2, .sez3, .sez4{
+  background-color: grey;
+  height: 500px;
+  width: 1200px;
+}
+
+/* rettangolo grande */
+.ret-w{
+  background-color: #1e90ff;
+  flex-grow: 3;
+  align-self: stretch;
+}
+
+/* rettangolo piccolo */
+.ret-s{
+  background-color: #ffc0cb;
+  flex-grow: 2;
+  align-self: stretch;
+}
+
+/* rettangolo invertito */
+.sez3 .ordineinvertito{
+  order: 1;
+}
+
+/* ultuma sezione main */
+.sez5{
+  background-color: #228b22;
+  height: 900px;
+  width: 1200px;
+}
+
+
+/******   footer colori, altezze e proprietà dei container e contenuti ********/
+footer > section{
+  background-color: #23272a;
+  height: 630px;
+}
+
+.sezf1{
+  height: 570px;
+  width: 1200px;
+  padding-top: 10px;
+}
+
+.sezf1-1{
+  background-color: #f08080;
+  flex-grow: 1;
+}
+
+.sezf1-2{
+  background-color: #20b2aa;
+  flex-grow: 2;
+  align-self: stretch;
+}
+
+hr{
+  color: white;
+}
+
+.backf2{
+  height: 110px;
+  padding-top: 30px;
+}
+
+.sezf2{
+  height: 80px;
+  width: 1200px;
+  background-color: #7fffd4;
+}
+
+.sezf2-1, .sezf2-2 {
+  background-color: #ffb6c1;
+  font-size: 25px;
+}
