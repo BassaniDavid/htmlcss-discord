@@ -19,7 +19,7 @@
 }
 
 /* centratura con margin auto */
-.barra, .jumbo, .sez2, .sez3, .sez4, .sez5, .sezf1, .sezf2 {
+.barra, .jumbo, section {
   margin: auto;
 }
 
@@ -29,7 +29,7 @@ header{
   padding: 25px 0 0 0;
 }
 
-header, footer, .jumbo{
+header, footer, .jumbo, .second-color{
   color: white;
 }
 
@@ -77,17 +77,21 @@ button{
   width: 50%;
 }
 
-h1{
+h1, h2{
   font-size: xx-large;
-}
-
-h2{
-  font-size: xx-large;
-  padding-top: 10%;
 }
 
 h1, h2, p{
   margin-bottom: 25px;
+}
+
+h3{
+  padding-top: 30px;
+  margin-bottom: 40px;
+  font-size: x-large;
+  background-image: url(../img/stars.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 p{
@@ -97,7 +101,7 @@ p{
 /* main: colori e altezze background delle sezioni */
 
 main > section{
-  padding: 50px 5%;
+  padding: 50px 10%;
 }
 .back3rd, .back5th{
   background-color: #f6f6f6;
@@ -105,11 +109,12 @@ main > section{
 
 /* rettangolo con immagine */
 .ret-w{
-  width: 150%;
+  width: 70%;
   align-self: stretch;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 10%;
 }
 
 .img1{
@@ -126,26 +131,45 @@ main > section{
   background-image: url(../img/item3.svg);
 }
 
+.img4{
+  background-image: url(../img/item4-big.svg);
+  height: 550px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
 /* rettangolo piccolo */
 .ret-s{
-  width: 70%;
+  width: 50%;
   align-self: stretch;
+  padding-top: 4%;
 }
 
 /* rettangolo invertito */
-.sez3 .ordineinvertito{
+.ordineinvertito{ 
   order: 1;
+  margin: 0 5% 0 0;
+  width: 80%;
 }
 
 /* ultuma sezione main */
 .sez5{
-  background-color: #228b22;
-  height: 900px;
-  width: 1200px;
+  text-align: center;
 }
 
 
 /******   footer colori, altezze e proprietà dei container e contenuti ********/
+
+.second-color{
+ background-color: #7288da;
+}
+
+.sez5 button{
+  margin-bottom: 50px;
+}
+
 footer > section{
   background-color: #23272a;
   height: 630px;
