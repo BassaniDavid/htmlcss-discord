@@ -5,7 +5,6 @@
  box-sizing: border-box;
  /* controlla per font specifico!!!!!!!!!!!!!!!!!!!!!!! */
  font-family:Helvetica, sans-serif;
- line-height: 25px;
 }
 
 /* container centrato*/
@@ -65,12 +64,6 @@ button{
   background-color: #23272a;
   color: white;
 }
-
-/* main: colori e altezze background delle sezioni */
-main > section{
-  padding: 50px 0;
-}
-
 /* jumbo */
 .backjumbo{
   background-image: url(../img/jumbo.png);
@@ -88,37 +81,54 @@ h1{
   font-size: xx-large;
 }
 
-h1, p{
+h2{
+  font-size: xx-large;
+  padding-top: 10%;
+}
+
+h1, h2, p{
   margin-bottom: 25px;
 }
 
+p{
+  line-height: 25px;
+}
 
+/* main: colori e altezze background delle sezioni */
 
-
-
+main > section{
+  padding: 50px 5%;
+}
 .back3rd, .back5th{
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 
-
-
-.sez2, .sez3, .sez4{
-  background-color: grey;
-  height: 500px;
-  width: 1200px;
-}
-
-/* rettangolo grande */
+/* rettangolo con immagine */
 .ret-w{
-  background-color: #1e90ff;
-  flex-grow: 3;
+  width: 150%;
   align-self: stretch;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img1{
+  background-image: url(../img/item1.svg);
+}
+
+.img2
+{
+  background-image: url(../img/item2.svg);
+}
+
+.img3
+{
+  background-image: url(../img/item3.svg);
 }
 
 /* rettangolo piccolo */
 .ret-s{
-  background-color: #ffc0cb;
-  flex-grow: 2;
+  width: 70%;
   align-self: stretch;
 }
 
