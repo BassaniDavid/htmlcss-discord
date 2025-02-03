@@ -5,15 +5,6 @@
  box-sizing: border-box;
 }
 
-/* bordi tratteggiati */
-.bordo{
-  border: 2px dashed black;
-}
-.bordo2{
-  border: 2px dashed rgb(255, 255, 255);
-  flex-grow: 1;
-}
-
 /* container centrato*/
 .container{
   display: flex;
@@ -26,20 +17,19 @@
 }
 
 /* centratura con margin auto */
-.jumbo, .sez1, .sez2, .sez3, .sez4, .sez5, .sezf1, .sezf2 {
+.barra, .jumbo, .sez2, .sez3, .sez4, .sez5, .sezf1, .sezf2 {
   margin: auto;
 }
 
 /* header */
 header{
-  background-color: #add8e6;
+  background-color: #255ee9;
   height: 80px;
   padding: 15px 0;
 }
 
-.jumbo{
-  background-color: #daa520;
-  width: 1200px;
+.barra{
+  width: 80%;
   align-items: center;
 }
 
@@ -71,7 +61,7 @@ main > section{
   height: 600px;
 }
 
-.back1st{
+.backjumbo{
   background-color: #00008b;
   height: 500px;
 }
@@ -85,7 +75,7 @@ main > section{
 }
 
 /* main: colori, altezze e proprietà dei container e contenuti*/
-.sez1{
+.jumbo{
   background-color: #ee82ee;
   height: 400px;
   width: 900px;
