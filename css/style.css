@@ -110,12 +110,11 @@ main section{
 
 /* rettangolo con immagine */
 .ret-w{
-  width: 70%;
+  width: 100%;
   align-self: stretch;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 10%;
 }
 
 .img1{
@@ -151,8 +150,6 @@ main section{
 /* rettangolo invertito */
 .ordineinvertito{ 
   order: 1;
-  margin: 0 5% 0 0;
-  width: 80%;
 }
 
 /* ultuma sezione main */
