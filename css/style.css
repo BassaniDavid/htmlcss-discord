@@ -48,7 +48,7 @@ ul{
  list-style-type: none;
 }
 
-li{
+header li{
  padding:0 20px;
 }
 
@@ -92,15 +92,16 @@ h3{
   background-image: url(../img/stars.svg);
   background-position: center;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
-p{
+p, footer li {
   line-height: 25px;
 }
 
 /* main: colori e altezze background delle sezioni */
 
-main > section{
+main section{
   padding: 50px 10%;
 }
 .back3rd, .back5th{
@@ -155,59 +156,68 @@ main > section{
 }
 
 /* ultuma sezione main */
-.sez5{
+.back5th{
   text-align: center;
 }
 
-
-/******   footer colori, altezze e proprietà dei container e contenuti ********/
-
 .second-color{
- background-color: #7288da;
+  background-color: #7288da;
 }
-
-.sez5 button{
+ 
+.back5th button{
   margin-bottom: 50px;
 }
 
-footer > section{
+/******   footer colori, altezze e proprietà dei container e contenuti ********/
+footer{
+  padding: 50px 10%;
   background-color: #23272a;
-  height: 630px;
 }
 
-.sezf1{
-  height: 570px;
-  width: 1200px;
-  padding-top: 10px;
+h4, h5{
+  color: #7288da;
 }
 
+h4{
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.container2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bandieraitaliana{
+  height: 5%;
+}
+
+footer li{
+  text-align: left;
+  line-height: 40px;
+}
 .sezf1-1{
-  background-color: #f08080;
   flex-grow: 1;
 }
 
+.sezf {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #7288da;
+}
 .sezf1-2{
-  background-color: #20b2aa;
-  flex-grow: 2;
+  flex-grow: 1;
+  width: 100%;
   align-self: stretch;
 }
 
-hr{
-  color: white;
+i{
+  padding: 10px 8px;
 }
 
 .backf2{
-  height: 110px;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
-.sezf2{
-  height: 80px;
-  width: 1200px;
-  background-color: #7fffd4;
-}
-
-.sezf2-1, .sezf2-2 {
-  background-color: #ffb6c1;
-  font-size: 25px;
+.fa-arrow-down{
+  padding: 0;
 }
