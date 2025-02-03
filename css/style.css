@@ -3,6 +3,9 @@
  margin: 0;
  padding: 0px;
  box-sizing: border-box;
+ /* controlla per font specifico!!!!!!!!!!!!!!!!!!!!!!! */
+ font-family:Helvetica, sans-serif;
+ line-height: 25px;
 }
 
 /* container centrato*/
@@ -24,8 +27,11 @@
 /* header */
 header{
   background-color: #255ee9;
-  height: 155px;
-  padding: 50px 0;
+  padding: 25px 0;
+}
+
+header, footer, .jumbo{
+  color: white;
 }
 
 .barra{
@@ -33,9 +39,8 @@ header{
   align-items: center;
 }
 
-header div{
-  flex-grow: 1;
-
+.link{
+  flex-grow: 3;
 }
 
 ul{
@@ -44,44 +49,56 @@ ul{
 }
 
 li{
- padding:0 5px;
+ padding:0 20px;
 }
 
-.link{
-  flex-grow: 3;
+button{
+  padding: 10px 20px;
+  border: 1px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: large;
 }
 
-.login{
-  text-align: right;
+.black{
+  background-color: #23272a;
+  color: white;
 }
 
 /* main: colori e altezze background delle sezioni */
 main > section{
   padding: 50px 0;
-  height: 600px;
 }
 
+/* jumbo */
 .backjumbo{
   background-image: url(../img/jumbo.png);
   background-position: center;
   background-size: cover;
-  height: 500px;
 }
+
+.jumbo{
+  text-align: center;
+  width: 50%;
+}
+
+h1{
+  font-size: xx-large;
+}
+
+h1, p{
+  margin-bottom: 25px;
+}
+
+
+
+
 
 .back3rd, .back5th{
   background-color: #d3d3d3;
 }
 
-.back5th{
-  height: 1000px;
-}
 
-/* main: colori, altezze e proprietà dei container e contenuti*/
-.jumbo{
-  border: 2px solid black;
-  height: 400px;
-  width: 900px;
-}
 
 .sez2, .sez3, .sez4{
   background-color: grey;
